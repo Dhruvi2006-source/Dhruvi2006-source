@@ -78,7 +78,7 @@ Long term, I'm working toward becoming a well-rounded developer who is equally c
 
 **Programming Languages**
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp&theme=dark" />
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,c&theme=dark" />
 
 **Frontend Development**
 
@@ -90,27 +90,23 @@ Long term, I'm working toward becoming a well-rounded developer who is equally c
 
 **Database**
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,supabase&theme=dark" />
 
 **Mobile Development**
 
-<img src="https://skillicons.dev/icons?i=react,androidstudio,kotlin&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,androidstudio&theme=dark" />
 
 **Cloud & Deployment**
 
-<img src="https://skillicons.dev/icons?i=aws,vercel,netlify,docker,githubactions&theme=dark" />
+<img src="https://skillicons.dev/icons?i=vercel,netlify,docker&theme=dark" />
 
 **Developer Tools**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma&theme=dark" />
-
-**Testing**
-
-<img src="https://skillicons.dev/icons?i=jest,cypress&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark" />
 
 **Design Tools**
 
-<img src="https://skillicons.dev/icons?i=figma,ai,ps&theme=dark" />
+<img src="https://skillicons.dev/icons?i=figma,ai&theme=dark" />
 
 <br/>
 
@@ -127,7 +123,6 @@ I actively use AI tools to speed up my development workflow while keeping full c
 | Google AI Studio | Exploring for prototyping AI features |
 | Gemini | Exploring for research and content assistance |
 | Gemini CLI | Learning for terminal-based AI workflows |
-| Firebase Studio | Exploring for AI-assisted app building |
 
 These tools support my process, they don't replace understanding the fundamentals. I use them to move faster, catch mistakes early, and explore ideas, while every architectural and design decision stays mine.
 
