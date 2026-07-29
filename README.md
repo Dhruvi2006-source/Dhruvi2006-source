@@ -128,18 +128,47 @@ These tools support my process, they don't replace understanding the fundamental
 
 <br/>
 
-## Experience
+<br/>
 
-**Freelance Full Stack Developer**
+## 🚀 ECSoC'26 Open Source Journey
 
-- Building complete client websites from concept to deployment
-- Designing and developing REST APIs for web applications
-- Creating admin dashboards with real-time data and analytics
-- Handling requirement analysis and translating client needs into technical specs
-- Managing deployment pipelines and production environments
-- Communicating directly with clients throughout the project lifecycle
+<div align="center">
+
+### Elite Coders Summer of Code 2026
+
+| 🎯 Metric | 📊 Value |
+|:---------:|:--------:|
+| 💻 Role | **Contributor** |
+| ⭐ Current Score | **1340** |
+| 🏅 Current Rank | **#46** |
+| 🚀 Program | **ECSoC'26** |
+
+</div>
 
 <br/>
+
+### 🏅 Badges Earned
+
+<div align="center">
+
+<img src="./assets/mission-accepted.png" width="170" alt="Mission Accepted"/>
+<img src="./assets/rookie.png" width="170" alt="Rookie"/>
+<img src="./assets/beginner.png" width="170" alt="Beginner"/>
+<img src="./assets/hustler.png" width="170" alt="Hustler"/>
+
+</div>
+
+<br/>
+
+### 💻 Contribution Highlights
+
+- 🚀 Active contributor in **Elite Coders Summer of Code 2026 (ECSoC'26)**
+- 🌟 Contributing to real world open source repositories
+- 🛠️ Working on feature development, bug fixes, documentation, and code reviews
+- 🤝 Collaborating with developers using Git and GitHub
+- 📈 Current Score: **1340**
+- 🏅 Current Rank: **#46**
+- 🎖️ Earned **Mission Accepted**, **Rookie**, **Beginner**, and **Hustler** contributor badges
 
 ## Featured Projects
 
@@ -263,11 +292,13 @@ A platform for discovering local events with real-time updates and notifications
 
 ## Achievements
 
-```
-🏆 Participated in hackathons to build under real time constraints
-🏆 Contributed to open source repositories
-🏆 Built and deployed multiple production-ready applications
-🏆 Committed to continuous learning across web, mobile, and AI
+```text
+🏆 ECSoC'26 Open Source Contributor
+🏆 Current ECSoC Score: 1340
+🏆 Current ECSoC Rank: #46
+🏆 Earned Mission Accepted, Rookie, Beginner & Hustler badges
+🏆 Built and deployed production-ready web applications
+🏆 Continuous learner in Web, Mobile & AI Engineering
 ```
 
 <br/>
