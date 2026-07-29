@@ -140,7 +140,7 @@ These tools support my process, they don't replace understanding the fundamental
 |:---------:|:--------:|
 | 💻 Role | **Contributor** |
 | ⭐ Current Score | **1340** |
-| 🏅 Current Rank | **#46** |
+| 🏅 Current Global Rank | **#46** |
 | 🚀 Program | **ECSoC'26** |
 
 </div>
