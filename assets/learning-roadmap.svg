@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c147e9" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="progActive" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c147e9" />
+      <stop offset="100%" stop-color="#8a2be2" />
+    </linearGradient>
+
+    <linearGradient id="progExplore" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="100%" stop-color="#3a7bd5" />
+    </linearGradient>
+
+    <style>
+      .section-title {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        fill: #ffffff;
+      }
+      .stage-num {
+        font-family: 'Fira Code', monospace;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #c147e9;
+      }
+      .stage-name {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 600;
+        font-size: 13.5px;
+        fill: #e6edf3;
+      }
+      .status-active {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #c147e9;
+      }
+      .status-explore {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #00d2ff;
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="220" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Header bar inside SVG -->
+  <g transform="translate(25, 22)">
+    <circle cx="10" cy="10" r="6" fill="#c147e9" />
+    <text x="24" y="15" class="section-title">🌱 Technical Growth &amp; Learning Roadmap</text>
+    <line x1="0" y1="28" x2="850" y2="28" stroke="#30363d" stroke-width="1" />
+  </g>
+
+  <!-- Stages List (Horizontal / Grid Layout) -->
+  <g transform="translate(25, 70)">
+    <!-- Stage 01 -->
+    <g transform="translate(0, 0)">
+      <rect width="160" height="120" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect x="12" y="12" width="32" height="22" rx="4" fill="rgba(193, 71, 233, 0.15)" stroke="#c147e9" stroke-width="1" />
+      <text x="21" y="27" class="stage-num">01</text>
+      
+      <text x="12" y="56" class="stage-name">Data Structures</text>
+      <text x="12" y="72" class="stage-name">&amp; Algorithms</text>
+
+      <rect x="12" y="86" width="136" height="6" rx="3" fill="#0d1117" />
+      <rect x="12" y="86" width="100" height="6" rx="3" fill="url(#progActive)" />
+      <text x="12" y="106" class="status-active">● In Progress</text>
+    </g>
+
+    <!-- Stage 02 -->
+    <g transform="translate(172, 0)">
+      <rect width="160" height="120" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect x="12" y="12" width="32" height="22" rx="4" fill="rgba(193, 71, 233, 0.15)" stroke="#c147e9" stroke-width="1" />
+      <text x="20" y="27" class="stage-num">02</text>
+      
+      <text x="12" y="56" class="stage-name">System Design</text>
+      <text x="12" y="72" class="stage-name">Fundamentals</text>
+
+      <rect x="12" y="86" width="136" height="6" rx="3" fill="#0d1117" />
+      <rect x="12" y="86" width="90" height="6" rx="3" fill="url(#progActive)" />
+      <text x="12" y="106" class="status-active">● In Progress</text>
+    </g>
+
+    <!-- Stage 03 -->
+    <g transform="translate(344, 0)">
+      <rect width="160" height="120" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect x="12" y="12" width="32" height="22" rx="4" fill="rgba(193, 71, 233, 0.15)" stroke="#c147e9" stroke-width="1" />
+      <text x="20" y="27" class="stage-num">03</text>
+      
+      <text x="12" y="56" class="stage-name">React Native</text>
+      <text x="12" y="72" class="stage-name">&amp; Android</text>
+
+      <rect x="12" y="86" width="136" height="6" rx="3" fill="#0d1117" />
+      <rect x="12" y="86" width="85" height="6" rx="3" fill="url(#progActive)" />
+      <text x="12" y="106" class="status-active">● In Progress</text>
+    </g>
+
+    <!-- Stage 04 -->
+    <g transform="translate(516, 0)">
+      <rect width="160" height="120" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect x="12" y="12" width="32" height="22" rx="4" fill="rgba(0, 210, 255, 0.15)" stroke="#00d2ff" stroke-width="1" />
+      <text x="20" y="27" class="stage-num" fill="#00d2ff">04</text>
+      
+      <text x="12" y="56" class="stage-name">Cloud</text>
+      <text x="12" y="72" class="stage-name">Technologies</text>
+
+      <rect x="12" y="86" width="136" height="6" rx="3" fill="#0d1117" />
+      <rect x="12" y="86" width="55" height="6" rx="3" fill="url(#progExplore)" />
+      <text x="12" y="106" class="status-explore">◆ Exploring</text>
+    </g>
+
+    <!-- Stage 05 -->
+    <g transform="translate(688, 0)">
+      <rect width="160" height="120" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect x="12" y="12" width="32" height="22" rx="4" fill="rgba(0, 210, 255, 0.15)" stroke="#00d2ff" stroke-width="1" />
+      <text x="20" y="27" class="stage-num" fill="#00d2ff">05</text>
+      
+      <text x="12" y="56" class="stage-name">AI Engineering</text>
+      <text x="12" y="72" class="stage-name">&amp; Agents</text>
+
+      <rect x="12" y="86" width="136" height="6" rx="3" fill="#0d1117" />
+      <rect x="12" y="86" width="60" height="6" rx="3" fill="url(#progExplore)" />
+      <text x="12" y="106" class="status-explore">◆ Exploring</text>
+    </g>
+  </g>
+</svg>

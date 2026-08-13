@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d0e15" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c147e9" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#8a2be2" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#9b30ff" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="statCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(193, 71, 233, 0.12)" />
+      <stop offset="100%" stop-color="rgba(138, 43, 226, 0.04)" />
+    </linearGradient>
+
+    <linearGradient id="badgeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c147e9" />
+      <stop offset="100%" stop-color="#8a2be2" />
+    </linearGradient>
+
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        fill: #ffffff;
+      }
+      .stat-val {
+        font-family: 'Fira Code', monospace;
+        font-weight: 800;
+        font-size: 26px;
+        fill: #c147e9;
+      }
+      .stat-label {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 600;
+        font-size: 11.5px;
+        fill: #8b949e;
+        letter-spacing: 0.5px;
+      }
+      .highlight-item {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 13px;
+        fill: #c9d1d9;
+      }
+      .badge-title {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Glass Frame -->
+  <rect width="900" height="320" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Dashboard Header -->
+  <g transform="translate(25, 22)">
+    <circle cx="10" cy="10" r="6" fill="#ff7b72" filter="url(#subtleGlow)" />
+    <text x="24" y="15" class="title">🚀 ECSoC'26 Open Source Journey Dashboard</text>
+    <text x="730" y="15" font-family="'Fira Code', monospace" font-size="12" fill="#c147e9">PROGRAM: ECSoC'26</text>
+    <line x1="0" y1="28" x2="850" y2="28" stroke="#30363d" stroke-width="1" />
+  </g>
+
+  <!-- Metric Stat Cards Row (Left Side) -->
+  <g transform="translate(25, 68)">
+    <!-- Stat 1: Role -->
+    <g transform="translate(0, 0)">
+      <rect width="130" height="75" rx="10" fill="url(#statCardBg)" stroke="#c147e9" stroke-width="1" />
+      <text x="14" y="24" class="stat-label">ROLE</text>
+      <text x="14" y="54" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="18" fill="#ffffff">Contributor</text>
+    </g>
+
+    <!-- Stat 2: Current Score -->
+    <g transform="translate(142, 0)">
+      <rect width="130" height="75" rx="10" fill="url(#statCardBg)" stroke="#c147e9" stroke-width="1" />
+      <text x="14" y="24" class="stat-label">TOTAL SCORE</text>
+      <text x="14" y="54" class="stat-val">1,340</text>
+    </g>
+
+    <!-- Stat 3: Global Rank -->
+    <g transform="translate(284, 0)">
+      <rect width="130" height="75" rx="10" fill="url(#statCardBg)" stroke="#8a2be2" stroke-width="1" />
+      <text x="14" y="24" class="stat-label">GLOBAL RANK</text>
+      <text x="14" y="54" class="stat-val" fill="#00d2ff">#46</text>
+    </g>
+  </g>
+
+  <!-- Badges Grid Container (Right Side Top) -->
+  <g transform="translate(450, 68)">
+    <rect width="425" height="75" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="20" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="11" fill="#8b949e">EARNED CONTRIBUTOR BADGES</text>
+    
+    <!-- 4 Visual Badges -->
+    <!-- Badge 1: Mission Accepted -->
+    <g transform="translate(16, 28)">
+      <rect width="90" height="34" rx="6" fill="#0d1117" stroke="#c147e9" stroke-width="1" />
+      <text x="8" y="21" class="badge-title">🎯 Mission</text>
+    </g>
+
+    <!-- Badge 2: Rookie -->
+    <g transform="translate(114, 28)">
+      <rect width="90" height="34" rx="6" fill="#0d1117" stroke="#8a2be2" stroke-width="1" />
+      <text x="14" y="21" class="badge-title">🌱 Rookie</text>
+    </g>
+
+    <!-- Badge 3: Beginner -->
+    <g transform="translate(212, 28)">
+      <rect width="90" height="34" rx="6" fill="#0d1117" stroke="#00d2ff" stroke-width="1" />
+      <text x="10" y="21" class="badge-title">⚡ Beginner</text>
+    </g>
+
+    <!-- Badge 4: Hustler -->
+    <g transform="translate(310, 28)">
+      <rect width="98" height="34" rx="6" fill="#0d1117" stroke="#ff7b72" stroke-width="1" />
+      <text x="12" y="21" class="badge-title">🔥 Hustler</text>
+    </g>
+  </g>
+
+  <!-- Contribution Highlights Panel (Full Width Bottom) -->
+  <g transform="translate(25, 160)">
+    <rect width="850" height="135" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    
+    <text x="20" y="24" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#c147e9">CONTRIBUTION HIGHLIGHTS &amp; OPEN SOURCE IMPACT</text>
+    <line x1="20" y1="34" x2="830" y2="34" stroke="#30363d" stroke-width="1" />
+
+    <g transform="translate(20, 52)">
+      <text x="0" y="0" class="highlight-item">⚡ Active contributor to real-world open source projects in Elite Coders Summer of Code 2026</text>
+      <text x="0" y="22" class="highlight-item">🛠️ Authoring feature additions, performance bug fixes, documentation clarity, and PR reviews</text>
+      <text x="0" y="44" class="highlight-item">🤝 Collaborating smoothly with international developer teams using Git workflows &amp; GitHub actions</text>
+      <text x="0" y="66" class="highlight-item">📈 Top Tier Ranking (#46 Global) with 1,340 cumulative contribution points</text>
+    </g>
+  </g>
+</svg>

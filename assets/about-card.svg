@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c147e9" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="codeHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f242d" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <style>
+      .code-text {
+        font-family: 'Fira Code', Consolas, 'Courier New', monospace;
+        font-size: 13px;
+        line-height: 1.6;
+      }
+      .keyword { fill: #ff7b72; font-weight: 600; }
+      .variable { fill: #79c0ff; }
+      .property { fill: #d2a8ff; }
+      .string { fill: #a5d6ff; }
+      .punctuation { fill: #8b949e; }
+      .comment { fill: #8b949e; font-style: italic; }
+      
+      .bio-title {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        fill: #ffffff;
+      }
+      .bio-body {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-size: 13.5px;
+        fill: #c9d1d9;
+        line-height: 1.5;
+      }
+      .bio-highlight {
+        fill: #c147e9;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Frame -->
+  <rect width="900" height="320" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Code Editor Window (Left Half: x:20, width:440) -->
+  <g transform="translate(20, 20)">
+    <!-- Code Box Background -->
+    <rect width="440" height="280" rx="10" fill="#090d13" stroke="#30363d" stroke-width="1" />
+    
+    <!-- Code Editor Titlebar -->
+    <path d="M 0 10 Q 0 0 10 0 L 430 0 Q 440 0 440 10 L 440 36 L 0 36 Z" fill="url(#codeHeaderGrad)" />
+    <circle cx="16" cy="18" r="5" fill="#ff5f56" />
+    <circle cx="32" cy="18" r="5" fill="#ffbd2e" />
+    <circle cx="48" cy="18" r="5" fill="#27c93f" />
+    
+    <!-- File Tab -->
+    <rect x="68" y="6" width="110" height="30" rx="6" fill="#090d13" />
+    <text x="82" y="25" font-family="'Fira Code', monospace" font-size="12" fill="#389fe8">TS</text>
+    <text x="104" y="25" font-family="'Fira Code', monospace" font-size="12" fill="#c9d1d9">dhruvi.ts</text>
+
+    <!-- Code Content -->
+    <g transform="translate(18, 56)" class="code-text">
+      <!-- Line 1 -->
+      <text x="0" y="0"><tspan class="keyword">const</tspan> <tspan class="variable">dhruvi</tspan> <tspan class="punctuation">=</tspan> <tspan class="punctuation">{</tspan></text>
+      <!-- Line 2 -->
+      <text x="16" y="22"><tspan class="property">role</tspan><tspan class="punctuation">:</tspan> <tspan class="string">"Full Stack Developer"</tspan><tspan class="punctuation">,</tspan></text>
+      <!-- Line 3 -->
+      <text x="16" y="44"><tspan class="property">focus</tspan><tspan class="punctuation">:</tspan> <tspan class="string">"Scalable web apps"</tspan><tspan class="punctuation">,</tspan></text>
+      <!-- Line 4 -->
+      <text x="16" y="66"><tspan class="property">learning</tspan><tspan class="punctuation">:</tspan> <tspan class="punctuation">[</tspan></text>
+      <text x="32" y="86"><tspan class="string">"React Native"</tspan><tspan class="punctuation">,</tspan> <tspan class="string">"System Design"</tspan><tspan class="punctuation">,</tspan></text>
+      <text x="32" y="106"><tspan class="string">"AI Engineering"</tspan></text>
+      <text x="16" y="126"><tspan class="punctuation">],</tspan></text>
+      <!-- Line 5 -->
+      <text x="16" y="148"><tspan class="property">tools</tspan><tspan class="punctuation">:</tspan> <tspan class="punctuation">[</tspan><tspan class="string">"React"</tspan><tspan class="punctuation">,</tspan> <tspan class="string">"Node.js"</tspan><tspan class="punctuation">,</tspan> <tspan class="string">"MongoDB"</tspan><tspan class="punctuation">],</tspan></text>
+      <!-- Line 6 -->
+      <text x="16" y="170"><tspan class="property">status</tspan><tspan class="punctuation">:</tspan> <tspan class="string">"Building &amp; shipping daily"</tspan></text>
+      <!-- Line 7 -->
+      <text x="0" y="194"><tspan class="punctuation">};</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right Half Bio Summary Card (x:480, width:400) -->
+  <g transform="translate(480, 20)">
+    <rect width="400" height="280" rx="10" fill="rgba(255, 255, 255, 0.03)" stroke="#30363d" stroke-width="1" />
+    
+    <g transform="translate(24, 30)">
+      <text x="0" y="0" class="bio-title">🚀 About <tspan class="bio-highlight">Dhruvi Patel</tspan></text>
+      <line x1="0" y1="12" x2="352" y2="12" stroke="#c147e9" stroke-width="2" opacity="0.6" />
+
+      <text x="0" y="38" class="bio-body">
+        <tspan x="0" dy="0">I work across the stack, turning ideas into clean,</tspan>
+        <tspan x="0" dy="20">production-ready web applications with maintainable</tspan>
+        <tspan x="0" dy="20">architecture over quick hacks.</tspan>
+      </text>
+
+      <text x="0" y="112" class="bio-body">
+        <tspan x="0" dy="0">My workflow blends strong engineering fundamentals</tspan>
+        <tspan x="0" dy="20">with modern AI-assisted developer tools, enabling faster</tspan>
+        <tspan x="0" dy="20">shipping while owning every design decision.</tspan>
+      </text>
+
+      <text x="0" y="186" class="bio-body">
+        <tspan x="0" dy="0">Long term, I am mastering both web &amp; mobile systems</tspan>
+        <tspan x="0" dy="20">to build deeply useful products that scale.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

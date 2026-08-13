@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="100%" height="360">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c147e9" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c147e9" />
+      <stop offset="100%" stop-color="#8a2be2" />
+    </linearGradient>
+
+    <style>
+      .proj-title {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        fill: #ffffff;
+      }
+      .proj-desc {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 13.5px;
+        fill: #c9d1d9;
+        line-height: 1.5;
+      }
+      .feature-item {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 12.5px;
+        fill: #8b949e;
+      }
+      .btn-text {
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Glass Frame -->
+  <rect width="850" height="360" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Left Side: UI Mockup Preview Graphic (x:20, y:20, w:380, h:320) -->
+  <g transform="translate(20, 20)">
+    <rect width="380" height="320" rx="10" fill="#090d13" stroke="#30363d" stroke-width="1" />
+    
+    <!-- Top Browser Header Bar -->
+    <path d="M 0 10 Q 0 0 10 0 L 370 0 Q 380 0 380 10 L 380 32 L 0 32 Z" fill="#161b22" />
+    <circle cx="14" cy="16" r="4" fill="#ff5f56" />
+    <circle cx="26" cy="16" r="4" fill="#ffbd2e" />
+    <circle cx="38" cy="16" r="4" fill="#27c93f" />
+    <rect x="60" y="7" width="220" height="18" rx="4" fill="#0d1117" />
+    <text x="70" y="20" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8b949e">hr-portal.app/dashboard</text>
+
+    <!-- Mock App Layout: Sidebar + Dashboard Cards -->
+    <g transform="translate(10, 42)">
+      <!-- Sidebar -->
+      <rect width="70" height="260" rx="6" fill="#121620" />
+      <rect x="10" y="15" width="50" height="8" rx="3" fill="#c147e9" />
+      <rect x="10" y="35" width="40" height="6" rx="3" fill="#30363d" />
+      <rect x="10" y="50" width="45" height="6" rx="3" fill="#30363d" />
+      <rect x="10" y="65" width="35" height="6" rx="3" fill="#30363d" />
+
+      <!-- Main Dashboard Content -->
+      <g transform="translate(80, 0)">
+        <!-- Stat Cards -->
+        <rect x="0" y="10" width="85" height="45" rx="6" fill="#161b22" stroke="#c147e9" stroke-width="1" />
+        <text x="8" y="24" font-family="sans-serif" font-size="9" fill="#8b949e">EMPLOYEES</text>
+        <text x="8" y="44" font-family="sans-serif" font-weight="700" font-size="14" fill="#ffffff">248</text>
+
+        <rect x="95" y="10" width="85" height="45" rx="6" fill="#161b22" stroke="#8a2be2" stroke-width="1" />
+        <text x="103" y="24" font-family="sans-serif" font-size="9" fill="#8b949e">ATTENDANCE</text>
+        <text x="103" y="44" font-family="sans-serif" font-weight="700" font-size="14" fill="#00ff88">96.4%</text>
+
+        <rect x="190" y="10" width="85" height="45" rx="6" fill="#161b22" stroke="#9b30ff" stroke-width="1" />
+        <text x="198" y="24" font-family="sans-serif" font-size="9" fill="#8b949e">PAYROLL</text>
+        <text x="198" y="44" font-family="sans-serif" font-weight="700" font-size="14" fill="#00d2ff">PROCESSED</text>
+
+        <!-- Attendance & Payroll Data Chart Graphic -->
+        <g transform="translate(0, 68)">
+          <rect width="275" height="180" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <text x="12" y="20" font-family="sans-serif" font-weight="700" font-size="10" fill="#c9d1d9">EMPLOYEE ATTENDANCE &amp; WORKFLOW</text>
+          
+          <!-- Mock Line Chart -->
+          <path d="M 20 140 L 60 110 L 100 125 L 140 85 L 180 100 L 220 50 L 260 70" fill="none" stroke="#c147e9" stroke-width="2.5" />
+          <circle cx="220" cy="50" r="4" fill="#ffffff" stroke="#c147e9" stroke-width="2" />
+
+          <!-- Table Rows Mockup -->
+          <rect x="12" y="150" width="250" height="18" rx="4" fill="#0d1117" />
+          <rect x="20" y="155" width="60" height="8" rx="2" fill="#8b949e" />
+          <rect x="180" y="155" width="40" height="8" rx="2" fill="#00ff88" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side: Project Details & Tech Stack (x:420, y:20, w:410) -->
+  <g transform="translate(420, 25)">
+    <text x="0" y="20" class="proj-title">HR Management System</text>
+    <text x="0" y="42" class="proj-desc">A full-featured enterprise HR platform built to manage employee records, attendance tracking, payroll workflows, and role-based admin controls seamlessly.</text>
+
+    <!-- Tech Stack Pill Row -->
+    <g transform="translate(0, 90)">
+      <rect x="0" y="0" width="60" height="22" rx="11" fill="#161b22" stroke="#c147e9" stroke-width="1" />
+      <text x="13" y="15" font-family="sans-serif" font-weight="600" font-size="11" fill="#c147e9">React</text>
+
+      <rect x="68" y="0" width="70" height="22" rx="11" fill="#161b22" stroke="#8a2be2" stroke-width="1" />
+      <text x="80" y="15" font-family="sans-serif" font-weight="600" font-size="11" fill="#8a2be2">Node.js</text>
+
+      <rect x="146" y="0" width="70" height="22" rx="11" fill="#161b22" stroke="#9b30ff" stroke-width="1" />
+      <text x="158" y="15" font-family="sans-serif" font-weight="600" font-size="11" fill="#9b30ff">Express</text>
+
+      <rect x="224" y="0" width="75" height="22" rx="11" fill="#161b22" stroke="#00ff88" stroke-width="1" />
+      <text x="236" y="15" font-family="sans-serif" font-weight="600" font-size="11" fill="#00ff88">MongoDB</text>
+    </g>
+
+    <!-- Key Features List -->
+    <g transform="translate(0, 132)">
+      <text x="0" y="16" font-family="sans-serif" font-weight="700" font-size="12" fill="#ffffff">KEY FEATURES</text>
+      <line x1="0" y1="24" x2="390" y2="24" stroke="#30363d" stroke-width="1" />
+
+      <text x="0" y="44" class="feature-item">⚡ Comprehensive employee profile &amp; directory management</text>
+      <text x="0" y="64" class="feature-item">⚡ Real-time attendance logging &amp; leave approval pipeline</text>
+      <text x="0" y="84" class="feature-item">⚡ Automated payroll calculator &amp; salary slip generator</text>
+      <text x="0" y="104" class="feature-item">⚡ JWT authentication with granular role-based access control</text>
+    </g>
+
+    <!-- CTA Button Graphics -->
+    <g transform="translate(0, 272)">
+      <!-- View Code Button Graphic -->
+      <rect width="130" height="34" rx="8" fill="url(#btnGrad)" />
+      <text x="26" y="21" class="btn-text">📦 View Code</text>
+
+      <!-- Live Demo Button Graphic -->
+      <rect x="142" y="0" width="130" height="34" rx="8" fill="#161b22" stroke="#c147e9" stroke-width="1" />
+      <text x="168" y="21" class="btn-text" fill="#c147e9">🚀 Live Demo</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10" />
+      <stop offset="50%" stop-color="#121622" />
+      <stop offset="100%" stop-color="#0d0e15" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c147e9" />
+      <stop offset="50%" stop-color="#8a2be2" />
+      <stop offset="100%" stop-color="#9b30ff" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c147e9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.2" />
+    </linearGradient>
+
+    <style>
+      .quote-text {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 15px;
+        fill: #e6edf3;
+      }
+      .cta-heading {
+        font-family: 'Segoe UI', -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="180" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Quote Container -->
+  <g transform="translate(450, 45)" text-anchor="middle">
+    <text x="0" y="0" class="quote-text">"Good code is written for the next developer to understand, not just for the machine to run."</text>
+  </g>
+
+  <!-- CTA Heading -->
+  <g transform="translate(450, 92)" text-anchor="middle">
+    <text x="0" y="0" class="cta-heading">🤝 Let's Build Something Great Together</text>
+  </g>
+
+  <!-- Bottom Visual Wave -->
+  <path d="M 0 140 Q 225 110 450 140 T 900 140 L 900 180 L 0 180 Z" fill="url(#waveGrad)" opacity="0.3" />
+  <path d="M 0 150 Q 225 125 450 150 T 900 150 L 900 180 L 0 180 Z" fill="url(#waveGrad)" opacity="0.7" />
+</svg>
