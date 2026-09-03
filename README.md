@@ -576,7 +576,7 @@ A platform for discovering local events with real-time updates.
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00E0FF,50:FFD700,100:FF6A00&height=4&width=100%25" width="100%"/>
 </div>
 
-<h2 align="center">✦ GitHub Analytics ✦</h2>
+<!-- <h2 align="center">✦ GitHub Analytics ✦</h2>
 
 <div align="center">
 
@@ -588,7 +588,57 @@ A platform for discovering local events with real-time updates.
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dhruvi2006-source&theme=react-dark&hide_border=true&bg_color=00000000&color=FF6A00&line=FF1E8E&point=00E0FF" width="100%"/>
 
+</div> -->
+
+
+
+
+
+
+
+
+<h2 align="center">✦ GitHub Analytics ✦</h2>
+
+<div align="center">
+
+<img
+  src="./profile/stats.svg"
+  width="49%"
+  alt="GitHub Stats"
+/>
+
+<img
+  src="./profile/top-langs.svg"
+  width="49%"
+  alt="Top Languages"
+/>
+
+<br/><br/>
+
+<img
+  src="./profile/activity.svg"
+  width="100%"
+  alt="GitHub Activity Graph"
+/>
+
+<br/><br/>
+
+<img
+  src="./profile/trophy.svg"
+  width="100%"
+  alt="GitHub Trophies"
+/>
+
 </div>
+
+
+
+
+
+
+
+
+
 
 <br/>
 
