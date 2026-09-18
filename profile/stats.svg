@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Technical-Dhruvi&#39;s GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 1, Total Commits  (last year) : 640, Total PRs: 289, Total Issues: 0, Contributed to (last year): 21</desc>
+        <desc id="descId">Total Stars Earned: 1, Total Commits  (last year) : 648, Total PRs: 293, Total Issues: 0, Contributed to (last year): 22</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 147.22764650808367;
+        stroke-dashoffset: 147.01014606334152;
       }
     }
   
@@ -176,7 +176,7 @@
         x="204.01"
         y="12.5"
         data-testid="commits"
-      >640</text>
+      >648</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -187,7 +187,7 @@
         x="204.01"
         y="12.5"
         data-testid="prs"
-      >289</text>
+      >293</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -209,7 +209,7 @@
         x="204.01"
         y="12.5"
         data-testid="contribs"
-      >21</text>
+      >22</text>
     </g>
   </g>
     </svg>
